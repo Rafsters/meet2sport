@@ -2,15 +2,22 @@ import ApiManager from 'utils/ApiManager';
 
 const initialState = {
   events: [],
+  initialValues: {
+    event: 0,
+  },
 };
 
 const actions = {
-  getEvents: 'EVENTS_GET_EVENTS',
+  getEvents: 'MY_EVENTS_GET_EVENTS',
 };
 
-
 export const getEvents = () => {
-  const promise = ApiManager.getAll('/events');
+  const user = ApiManager.getUser();
+  const promise = ApiManager.getAllWhere('events_users', 'userId', '==', user.id).then(events => (
+    Promise.all(events.map(event => (
+      ApiManager.getOne('events', event.eventId)
+    )))
+  ));
 
   return ({
     type: actions.getEvents,

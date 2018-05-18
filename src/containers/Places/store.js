@@ -2,9 +2,6 @@ import ApiManager from 'utils/ApiManager';
 
 const initialState = {
   places: [],
-  initialValues: {
-    place: 0,
-  },
 };
 
 const actions = {
