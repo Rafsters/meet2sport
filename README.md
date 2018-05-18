@@ -36,12 +36,12 @@ Uwierzytelnianie użytkowników aplikacji będzie przeprowadzone za pomocą Fire
 | Michał Ligęza | Przemysław Nikiel |  Rafał Kwiecień |  Kamil Maj   |
 | ------------- |:-----------------:| :--------------:| :----------: |
 | Projektowanie layoutu i funkcjonalności aplikacji - 2h | Projektowanie layoutu i funkcjonalności aplikacji - 2h | Projektowanie layoutu i funkcjonalności aplikacji - 2h | Projektowanie layoutu i funkcjonalności aplikacji - 2h |
-| Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h |
-| Konfiguracja react-native -4h | Konfiguracja react-native -4h | Konfiguracja react-native -4h | Konfiguracja react-native -16h |
-| Front-end rejestracji - 2h | Lista uczestników -5h | Front-end podglądu wydarzenia -5h | Front-end listy wydarzeń -8h |
-| Back-end logowania i rejestracji - 8h | Wygląd aplikacji 3h| Dołączenie API Google Maps -7h | README 2h|
-| Powiązanie wydarzenia z miejscem 4h |  | Front-end listy wydarzeń 2h |  |
-| Back-end dodawania wydarzenia - 3h |  | Front-end listy miejsc 2h |  |
-| Back-end dodawnia miejsca - 3h | | Powiązanie wydarzenia z miejscem 4h |  |
+| Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h | Prototypowanie aplikacji - 3h |
+| Konfiguracja react-native -4h | Konfiguracja react-native -4h | Konfiguracja react-native -4h | Konfiguracja react-native  10h |
+| Front-end rejestracji - 2h | Wygląd aplikacji - 4h | Front-end podglądu wydarzenia -5h | Front-end listy wydarzeń - 4h |
+| Back-end logowania i rejestracji - 8h | Frontend dodawania wydarzeń - 4h| Dołączenie API Google Maps - 4h | README (Strona o projekcie) - 2h|
+| Powiązanie wydarzenia z miejscem 4h | Frontend dodawania miejsc - 2h | Front-end listy wydarzeń - 3h |  |
+| Back-end dodawania wydarzenia - 3h | Lista uczestników - 3h  | Front-end listy miejsc - 3h |  |
+| Back-end dodawnia miejsca - 3h | | Powiązanie wydarzenia z miejscem - 4h |  |
 | Front-end logowania - 2h|  |  |  |
-| Obsługa Firebase -9h |  |  | |
+| Obsługa Firebase - 9h |  |  | |
