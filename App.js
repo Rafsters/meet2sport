@@ -70,52 +70,52 @@ class App extends React.Component {
             <Scene
               key="login"
               component={Login}
-              />
+              initial
+            />
             <Scene
               key="signIn"
               component={SignIn}
-              />
+            />
             <Scene
               key="home"
               component={Home}
-              initial
-              />
+            />
             <Scene
               key="selectPlace"
               component={SelectPlace}
-              />
+            />
             <Scene
               key="eventPreview"
               component={EventPreview}
-              />
+            />
             <Scene
               key="filter"
               component={Filter}
-              />
+            />
             <Scene
               key="addEvents"
               component={AddEvents}
-              />
+            />
             <Scene
               key="addPlace"
               component={AddPlace}
-              />
+            />
             <Scene
               key="places"
               component={Places}
-              />
+            />
             <Scene
               key="placePreview"
               component={PlacePreview}
-              />
+            />
             <Scene
               key="events"
               component={Events}
-              />
+            />
             <Scene
               key="myEvents"
               component={MyEvents}
-              />
+            />
           </Scene>
         </Router>
       </Provider>
