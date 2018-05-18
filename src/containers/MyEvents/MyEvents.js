@@ -9,7 +9,7 @@ const MyEventsPage = props => (
 );
 
 const mapStateToProps = state => ({
-  ...state.selectEvents,
+  ...state.myEvents,
 });
 
 export default connect(mapStateToProps, { getEvents })(MyEventsPage);

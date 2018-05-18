@@ -9,7 +9,7 @@ const PlacesPage = props => (
 );
 
 const mapStateToProps = state => ({
-  ...state.selectPlace,
+  ...state.places,
 });
 
 export default connect(mapStateToProps, { getPlaces })(PlacesPage);

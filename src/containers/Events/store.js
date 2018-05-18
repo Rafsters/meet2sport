@@ -2,13 +2,10 @@ import ApiManager from 'utils/ApiManager';
 
 const initialState = {
   events: [],
-  initialValues: {
-    event: 0,
-  },
 };
 
 const actions = {
-  getEvents: 'SELECT_EVENT_GET_EVENTS',
+  getEvents: 'EVENTS_GET_EVENTS',
 };
 
 

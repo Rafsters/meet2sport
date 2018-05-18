@@ -1,9 +1,5 @@
 import styled from 'styled-components';
-import { View, Text, ListItem } from 'native-base';
-
-const ButtonWrapper = styled(View)`
-  padding: 10px 10px 0;
-`;
+import { Text, ListItem } from 'native-base';
 
 const TextSmall = styled(Text)`
   font-size: 10px;
@@ -18,7 +14,6 @@ const ListItemWrapper = styled(ListItem)`
 `;
 
 export {
-  ButtonWrapper,
   TextSmall,
   ListItemWrapper,
 };

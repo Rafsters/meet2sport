@@ -8,12 +8,16 @@ const initialState = {
 };
 
 const actions = {
-  getEvents: 'SELECT_EVENT_GET_EVENTS',
+  getEvents: 'MY_EVENTS_GET_EVENTS',
 };
 
-
 export const getEvents = () => {
-  const promise = ApiManager.getAll('/events');
+  const user = ApiManager.getUser();
+  const promise = ApiManager.getAllWhere('events_users', 'userId', '==', user.id).then(events => (
+    Promise.all(events.map(event => (
+      ApiManager.getOne('events', event.eventId)
+    )))
+  ));
 
   return ({
     type: actions.getEvents,
