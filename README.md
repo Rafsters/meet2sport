@@ -38,6 +38,11 @@ Uwierzytelnianie użytkowników aplikacji będzie przeprowadzone za pomocą Fire
 | Projektowanie layoutu i funkcjonalności aplikacji - 2h | Projektowanie layoutu i funkcjonalności aplikacji - 2h | Projektowanie layoutu i funkcjonalności aplikacji - 2h | Projektowanie layoutu i funkcjonalności aplikacji - 2h |
 | Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h | Prototypowanie aplikacji -3h |
 | Konfiguracja react-native -4h | Konfiguracja react-native -4h | Konfiguracja react-native -4h | Konfiguracja react-native -16h |
-| Front-end ekranu logowania -5h | Front-end ekranu rejestracji -5h | Front-end podglądu wydarzenia -5h | Front-end listy wydarzeń -8h |
-| Back-end logowania -4h | Back-end rejestracji -6h | Dołączenie API Google Maps -7h | Back-end listy wydarzeń -8h |
-| Obsługa Firebase -9h | Front-end ekranu dodaj wydarzenie -3h | Implementacja funkcjonalnosci znajdowania wydarzenia na mapie -5h | Strona projektu w repozytorium -2h |
+| Front-end rejestracji - 2h | Lista uczestników -5h | Front-end podglądu wydarzenia -5h | Front-end listy wydarzeń -8h |
+| Back-end logowania i rejestracji - 8h |  | Dołączenie API Google Maps -7h | |
+| Powiązanie wydarzenia z miejscem 4h |  | Front-end listy wydarzeń 2h |  |
+| Back-end dodawania wydarzenia - 3h |  | Front-end listy miejsc 2h |  |
+| Back-end dodawnia miejsca - 3h | | Powiązanie wydarzenia z miejscem 4h |  |
+| Front-end logowania - 2h|  |  |  |
+| Obsługa Firebase -9h |  |  | |
+| Obsługa Firebase -9h |  |  | |
