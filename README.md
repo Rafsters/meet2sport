@@ -23,7 +23,7 @@ Uwierzytelnianie użytkowników aplikacji będzie przeprowadzone za pomocą Fire
  ## Prototypy
  
  <p align="center">
-<img src="prototypes/Logowanie.png" alt="Logowanie" width="300" height="400"/> 
+<img src="prototypes/Logowanie.png" alt="Logowanie" width="356" height="756"/> 
 <img src="prototypes/Start.png" alt="Start" width="356" height="756"/> 
 <img src="prototypes/Wydarzenia.png" alt="Wydarzenia" width="356" height="756"/> 
 <img src="prototypes/Widok_wydarzenia.png" alt="Widok wydarzenia" width="356" height="756"/> 
