@@ -12,7 +12,7 @@ const Home = () => (
       <Grid>
         <Row>
           <Col>
-            <ActionButton>
+            <ActionButton onPress={() => { Actions.push('myEvents'); }}>
               <CenteredText>MOJE WYDARZENIA</CenteredText>
             </ActionButton>
           </Col>
